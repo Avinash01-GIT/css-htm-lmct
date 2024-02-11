@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow: hidden;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  /* background-color:aqua ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.sbar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.sbar input {
+  border: none;
+  border-color: 1px solid gray;
+  height: 35px;
+  width: 400px;
+}
+
+
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-right: 20px;
+}
+
+.login .pro {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.login .cart {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.bs {
+  display: flex;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.navbar2 {
+  width: 100%;
+  height: 150px;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  height: 100px;
+  width: 200px;
+  /* border: 1px solid red ; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.bar {
+  width: 100%;
+  height: 130px;
+}
+.bar .barimg {
+  width: 100%;
+}
+
+.barimg img {
+  width: 109%;
+}
+
+
+
+
+
